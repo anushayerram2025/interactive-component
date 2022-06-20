@@ -1,0 +1,148 @@
+
+body{
+ margin: 0 0 0 0;
+background-color: hsl(216, 12%, 8%);
+text-align: center;
+}
+.one,.two,.three,.four,.five{
+  display: inline-block;
+  border-radius: 100%;
+  background-color: hsl(213, 25%, 20%);
+  padding:10px 15px;
+  margin-left:3px;
+  color:hsl(217, 12%, 63%);
+ border:transparent;
+  font-family: 'Overpass', sans-serif;
+ margin-left: 15px;
+
+
+
+}
+.main{
+text-align: center;
+margin: auto;
+width:315px;
+padding:50px 50px;
+  background-color: hsl(213, 19%, 18%);
+  margin-top: 100px;
+  border-radius:30px;
+  height: 280px;
+}
+.heading,.thank-you{
+  font-size:30px;
+  color:hsl(0, 0%, 100%);
+   font-family: 'Overpass', sans-serif;
+}
+.text{
+  font-size: 15px;
+   font-family: 'Overpass', sans-serif;
+   color: hsl(217, 12%, 63%);
+   padding-bottom: 20px;
+}
+.feedback{
+
+  width:300px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 0;
+}
+.heading,.feedback,.text{
+  text-align: left;
+}
+.star{
+  border-radius: 100%;
+  padding: 8px 10px;
+  position: relative;
+  right:142px;
+  margin-bottom: 30px;
+    background-color: hsl(213, 25%, 20%);
+    border:transparent;
+  }
+.star img{
+  position:relative;
+  top:2px;
+}
+.btn {
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+   font-family: 'Overpass', sans-serif;
+  color: white;
+  font-size: 15px;
+  background: hsl(25, 97%, 53%);
+  padding: 6px 120px 6px 120px;
+  border: solid #8c681f 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: white;
+  color: hsl(25, 97%, 53%);
+}
+.one:hover,.two:hover,.three:hover,.four:hover,.five:hover{
+  background-color:hsl(25, 97%, 53%);
+  color:white;
+}
+.payment{
+  background-color: hsl(213, 19%, 18%);
+  border: transparent;
+  margin: 30px;
+}
+#selection{
+  width:30px;
+  padding-left:60px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 25%, 20%);
+  border: transparent;
+}
+.thank-you{
+  margin-top: 30px;
+}
+.last{
+  font-size: 15px;
+   font-family: 'Overpass', sans-serif;
+   color: hsl(217, 12%, 63%);
+   padding-bottom: 20px;
+   margin-top: 10px;
+}
+.hide{
+display: none;
+}
+.second{
+  height: 330px;
+}
+span{
+  display: inline-block;
+}
+#selection{
+  width:210px;
+  padding:0 0;
+  height: 30px;
+}
+@media (max-width:900px){
+  .main{
+    width:230px;
+
+  }
+  .first{
+    height:310px;
+  }
+  #sub,.feedback{
+    position: relative;
+    right:9px;
+    width:260px;
+
+  }
+.rate{
+margin:0;
+margin-left:6px;
+}
+#sub{
+  padding-left:110px;
+}
+.star{
+  position: relative;
+  right:105px;
+}
+}
